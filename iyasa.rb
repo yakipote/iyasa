@@ -4,5 +4,5 @@ pathArray = path.split('/')
 pathArray.pop
 
 array = [1,2,3,4,5,6]
-puts `rm #{ARGV.join(' ')}`
+puts `/bin/rm #{ARGV.join(' ')}`
 system("afplay #{pathArray.join('/')}/#{array.sample}.mp3 &")
